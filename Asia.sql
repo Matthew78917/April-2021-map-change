@@ -94,7 +94,6 @@ VALUES
 9012, 'Lionne', 59480
 );
 --add to items shop
-
 /* REPLACE QUERY NO: 1 */
 REPLACE INTO `LYHMEut`.`ShopItems` (`id`, `itemname`, `cost`, `buyback`)
 VALUES
