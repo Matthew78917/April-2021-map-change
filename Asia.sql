@@ -1,8 +1,8 @@
---delete ireland items
+-- delete ireland items
 DELETE FROM `LYHMEut`.`ShopItems` WHERE `ShopItems`.`id` BETWEEN 15000 AND 15501;
---remove NPC items from being sold
+-- remove NPC items from being sold
 UPDATE `LYHMEut`.`ShopItems` SET `buyback` = '0' WHERE `ShopItems`.`id` IN (1000, 1003, 1193, 144, 1190, 1191, 270, 1156, 1157, 434, 1048, 1199, 1044, 81, 1481, 1483, 1192, 43, 119, 1008, 346, 357, 347, 337, 1175, 1014, 77, 78, 84, 14, 80, 330, 336, 339, 341, 343, 345, 1045, 1104, 1105, 1106, 1107, 1108, 1109, 1110, 332, 503, 1432, 1347, 1349, 1351, 504, 505);
---add to vehicle shop
+-- add to vehicle shop
 /* REPLACE QUERY NO: 1 */
 REPLACE INTO `LYHMEut`.`ShopVehicles` (`id`, `vehiclename`, `cost`)
 VALUES
@@ -93,7 +93,7 @@ VALUES
 (
 9012, 'Lionne', 59480
 );
---add to items shop
+-- add to items shop
 /* REPLACE QUERY NO: 1 */
 REPLACE INTO `LYHMEut`.`ShopItems` (`id`, `itemname`, `cost`, `buyback`)
 VALUES

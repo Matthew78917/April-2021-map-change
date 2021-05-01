@@ -1,6 +1,6 @@
---remove from shop
+-- remove from shop
 DELETE FROM `LYHMEut`.`ShopItems` WHERE `ShopItems`.`id` = 1431;
---add to shop
+-- add to shop
 /* REPLACE QUERY NO: 1 */
 REPLACE INTO `LYHMEut`.`ShopItems` (`id`, `itemname`, `cost`, `buyback`)
 VALUES

@@ -1,4 +1,4 @@
---add items to shop
+-- add items to shop
 /* REPLACE QUERY NO: 1 */
 REPLACE INTO `LYHMEut`.`ShopItems` (`id`, `itemname`, `cost`, `buyback`)
 VALUES
